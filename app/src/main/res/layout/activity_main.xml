@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.anandroidx.constraintlayout.widget.ConstraintLayoutdroid.com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="312dp"
+        android:layout_height="169dp"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintHorizontal_bias="0.494"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintVertical_bias="0.028"
+        app2:srcCompat="@drawable/logo1" />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name    "-->
+<!--        android:textColor="#F4AF1B"-->
+<!--        android:textSize="20sp"-->
+<!--        app2:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app2:layout_constraintEnd_toEndOf="parent"-->
+<!--        app2:layout_constraintHorizontal_bias="0.498"-->
+<!--        app2:layout_constraintStart_toStartOf="parent"-->
+<!--        app2:layout_constraintTop_toTopOf="parent"-->
+<!--        app2:layout_constraintVertical_bias="0.26" />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="176dp"-->
+<!--        android:layout_height="44dp"-->
+<!--        android:hint="       Enter Name"-->
+<!--        android:textColorHint="#D8CFCF"-->
+<!--        app2:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app2:layout_constraintEnd_toEndOf="parent"-->
+<!--        app2:layout_constraintHorizontal_bias="0.502"-->
+<!--        app2:layout_constraintStart_toStartOf="parent"-->
+<!--        app2:layout_constraintTop_toTopOf="parent"-->
+<!--        app2:layout_constraintVertical_bias="0.322" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Select Your Topic"
+        android:textColor="#F4AF1B"
+        android:textSize="20sp"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintHorizontal_bias="0.473"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintVertical_bias="0.414" />
+
+    <Button
+        android:id="@+id/blcokchian"
+        android:layout_width="278dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#F4AF1B"
+        android:text="Blockchain"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintHorizontal_bias="0.496"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/dataanalytics"
+        android:layout_width="278dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#F4AF1B"
+        android:text="Data Analytics"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintHorizontal_bias="0.496"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintVertical_bias="0.59"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/nft"
+        android:layout_width="278dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#F4AF1B"
+        android:text="NFT"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintHorizontal_bias="0.496"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintVertical_bias="0.682"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/stock"
+        android:layout_width="278dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#F4AF1B"
+        android:text="Stock Market"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintHorizontal_bias="0.496"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="@+id/imageView"
+        app2:layout_constraintVertical_bias="0.768"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright©2022"
+        android:textColor="#F4AF1B"
+        android:textSize="20sp"
+
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintHorizontal_bias="0.507"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintVertical_bias="0.933" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
